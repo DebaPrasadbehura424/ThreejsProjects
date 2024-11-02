@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+/* nav section */
+.Navstand {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    background: #23282D;
+    color: #fff;
+}
+
+.Activeapps {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 25px;
+}
+
+.Navoptions {
+
+    list-style: none;
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 30px;
+    position: relative;
+
+}
+
+
+
+
+.account_section {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    height: 100%;
+    font-size: 25px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.myphoto {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+}
+
+/* nav section */
+
+
+
+/* Herosection */
+
+.herophoto {
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 120px;
+    font-family: "Roboto", sans-serif;
+}
+
+.herophoto img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+/* Herosection */
+
+
+/* serachsection */
+.seachdrop {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #23282D;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.searchcontainer {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 1px solid #000000;
+    border-radius: 20px;
+   font-size: 10px;
+   position: absolute;
+    background-color: #ffffff;
+    animation: dropbaby linear 1s;
+    transition: ease-in-out 0.75s;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+    z-index: 999;
+
+}
+
+.flipit {
+    animation: uploading linear 0.5s;
+    transition: all 0.3s;
+}
+
+@keyframes uploading {
+    from {
+        margin-top: 10px;
+    }
+
+    to {
+        margin-bottom: 0px;
+    }
+
+
+
+
+}
+
+
+
+
+@keyframes dropbaby {
+    from {
+        opacity: 0;
+        margin-bottom: 50px;
+    }
+
+    to {
+        opacity: 1;
+        margin-bottom: 10px;
+    }
+}
+
+.listsimple {
+    line-height: 5px;
+}
+
+.list_active {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C0408;
+    color: #fff;
+}
+
+
+
+
+
+
+/* serachsection */
+
+
+/* userdata */
+.cardbox {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: rgb(124, 232, 237);
+    margin: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+
+}
+
+
+.imageholder {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.cardbox img {
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+
+
+/* userdata */
+
+
+
+/* down section */
+
+.countingsection {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.scrollyou {
+    transition: all 5s ease-in-out;
+    animation: go 20s linear infinite;
+}
+
+@keyframes go {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-1545px);
+
+    }
+}
+
+.scrollyouyou {
+    transition: all 5s ease-in-out;
+    animation: goes 40s linear infinite;
+}
+
+@keyframes goes {
+    from {
+        transform: translateX(-1545px);
+    }
+
+    to {
+        transform: translateX(0px);
+
+    }
+}
+
+
+.scrollyouthree {
+    transition: all 5s ease-in-out;
+    animation: went 50s linear infinite;
+}
+
+@keyframes went {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-1545px);
+
+    }
+}
+
+
+
+
+/* down section */
+
+
+
+
+/* LOGIN UP */
+.login_daddy {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_daddy_child {
+    height: 100%;
+    width: 100%;
+    background: url("https://wallpapers.com/images/hd/firewatch-river-gaming-landscape-fjciwdxf5uy2fjnc.webp");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_head {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.37);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+.login_head input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 17px;
+    color: #fff;
+
+}
+
+.login_head input::placeholder {
+    font-size: 17px;
+    color: #fff;
+    padding-left: 10px;
+
+}
+
+
+.login_head button {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, );
+    color: #1e1e1e;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* LOGIN UP */
+
+
+
+/* myacc */
+.activate {
+
+    color: #5c28d6;
+}
+
+.ball {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.ballative {
+    background-color: #5c28d6;
+}
+
+.contentball {
+    display: flex;
+    align-items: center;
+    width: 58%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentdown {
+    font-size: 20px;
+    width: 80%;
+    padding-left: 20px;
+    word-spacing: nowrap;
+
+
+
+}
+
+textarea {
+    resize: none;
+}
+
+
+
+
+
+/* myacc */
+
+
+
+
+
+/* about */
+/* .arrowvita {
+    transition: all 2s ease-in;
+} */
+
+/* about */
